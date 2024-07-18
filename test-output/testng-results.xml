@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-06-03T15:42:24 IST" name="api" finished-at="2024-06-03T15:42:27 IST" duration-ms="3402">
+    <groups>
+      <group name="p1">
+        <method signature="Pen.test(com.api.utils.Entity)[pri:0, instance:com.api.requests.Pen@4d5d943d]" name="test" class="com.api.requests.Pen"/>
+      </group> <!-- p1 -->
+    </groups>
+    <test started-at="2024-06-03T15:42:24 IST" name="pen" finished-at="2024-06-03T15:42:27 IST" duration-ms="3402">
+      <class name="com.api.requests.Pen">
+        <test-method is-config="true" signature="setFilePath()[pri:0, instance:com.api.requests.Pen@4d5d943d]" started-at="2024-06-03T15:42:24 IST" name="setFilePath" finished-at="2024-06-03T15:42:24 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setFilePath -->
+        <test-method signature="test(com.api.utils.Entity)[pri:0, instance:com.api.requests.Pen@4d5d943d]" started-at="2024-06-03T15:42:24 IST" name="test" description="book details" data-provider="data" finished-at="2024-06-03T15:42:27 IST" duration-ms="2563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[com.api.utils.Entity@2f40a43]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- com.api.requests.Pen -->
+    </test> <!-- pen -->
+  </suite> <!-- api -->
+</testng-results>
